@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  background-color: black;
+  color: white;
 }
-
+h1{
+  color: white;
+}
+.todo-header{
+  margin-top: 10vh;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.todo-input{
+  width:20vw;
+  height: 7.9vh;
+  margin-left: 37vw;
+  margin-top: 20vh;
+  border-color: rgb(73, 112, 15);
+  border-width:1px ;
+  
+}
+.todo-input::placeholder{
+  color: white;
+  opacity: 0.3;
+  border: none;
+}
+
+.todo-button{
+  background-color: rgb(73, 112, 15);
+  border: none;
+  color: white;
+  margin-left: 1vw;
+  font-size: 9px;
+  padding: 18px 6px 13px 6px;
+  
+  margin-top: 0px;
+}
+ul{
+  list-style: none;
+}
+.add-div{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-bottom: 5vh;
+}
+.delete-button{
+  background-color: red;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
